@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASA-API</title>
+</head>
+<body>
+    
+        <h1>Astronomy Picture of the Day</h1>
+        <h2>{{ apod_data.title }}</h2>
+        <img src="{{ apod_data.url }}" alt="{{ apod_data.title }}">
+        <p>{{ apod_data.explanation }}</p>
+        <br>
+        <h1>Day in calendar</h1>
+        <p>{{wiki_summary}}</p>
+    
+</body>
+</html>

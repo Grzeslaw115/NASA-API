@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASA-API</title>
+</head>
+<body>
+
+    <h1>Choose date</h1>
+    <form action="/get_apod" method="post">
+        <label for="date">Select day:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Show ISS postion</h1>
+    <form action="/iss_position" method="get">
+        <button type="submit">Show ISS!</button>
+    </form>
+
+</body>
+</html>
